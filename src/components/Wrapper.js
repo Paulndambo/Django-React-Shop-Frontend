@@ -13,7 +13,7 @@ export const Wrapper = (props) => {
         
         <div className="navbar-nav">
           <div className="nav-item text-nowrap">
-            <a className="nav-link px-3" href="/" onClick={logoutUser}>Sign out</a>
+            <button className="btn btn-warning" onClick={logoutUser}>Sign out</button>
           </div>
         </div>
       </header>
