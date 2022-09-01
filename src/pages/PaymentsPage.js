@@ -15,11 +15,12 @@ const PaymentsPage = () => {
         })();
     }, []);
 
+    /*
     setInterval(() => {
         window.location.reload();
         console.log("Page Reloaded");
     }, 60000);
-
+    */
   return (
     <Wrapper>
       <div className="row mt-3">
